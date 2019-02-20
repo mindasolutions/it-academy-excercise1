@@ -9,12 +9,12 @@ public class CalculatorClass {
     }
 
     public int multiplyNumbers() {
-        return this.x * this.y;
+        return x * y;
     }
 
     public double divideNumbers() {
-        if(this.y != 0) {
-            return (double)this.x / this.y;
+        if(y != 0) {
+            return (double)x / y;
         } else {
             return 0;
         }
